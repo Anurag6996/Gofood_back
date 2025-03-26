@@ -9,7 +9,7 @@ mongoDB();
 // Use CORS middleware properly
 app.use(
   cors({
-    origin: ["http://localhost:3000, https://magnificent-taffy-6ae08f.netlify.app"], // Allow frontend requests
+    origin: ["http://localhost:3000", "https://magnificent-taffy-6ae08f.netlify.app"], // Allow frontend requests
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed request methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   })
